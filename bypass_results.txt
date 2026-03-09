@@ -1,0 +1,163 @@
+=== PHASE 1: Direct API Exploration ===
+
+--- 1a: POST /api/login ---
+Status: 200
+Headers: {'Date': 'Mon, 09 Mar 2026 10:09:40 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '2673', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Correlation-ID': '34075d0f-6831-49fb-9843-35e7b0fff193', 'Access-Control-Allow-Origin': '*', 'ETag': 'W/"a71-BZ/tZp/h9T3ixRqerLohF2wZGpU"'}
+Response: {
+  "message": "Login successful",
+  "success": true,
+  "data": {
+    "user": {
+      "id": 503,
+      "firstname": "Emily ",
+      "lastname": "Jerry",
+      "email": "sam201td@gmail.com",
+      "roleId": 1,
+      "agency_id": 218,
+      "role": "Manager",
+      "is_first_login": false,
+      "external_user": false
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUwMywicm9sZUlkIjoxLCJpYXQiOjE3NzMwNTA5ODAsImV4cCI6MTc3MzY1NTc4MH0.SlsfXlg1Ry_TdquaReiCmuAay7i_IyRlbAEaxOflaY8",
+    "agent_id": "af884b7a-6ce1-470d-8a35-5c0612e13818",
+    "billing": {
+      "id": 239,
+      "agency_id": 218,
+      "package_type_id": 3,
+      "stripe_customer_id": "cus_TcDFyv6e5RyU4m",
+      "amount": "50.00",
+      "status": "active",
+      "stripe_subscription_id": "sub_1SeypMQ2QHS4rlmepEFBNjjR",
+      "last_invoice_id": "in_1T6RzOQ2QHS4rlmeQCiQE2bU",
+      "last_payment_status": "success",
+      "next_payment_date": "2026-03-16T14:02:10.000Z",
+      "created_date": "2025-10-07T17:30:49.000Z",
+      "updated_date": "2026-03-04T09:15:53.000Z",
+      "interval": "monthly",
+      "coupon_code": "FIRSTYEAR",
+      "pay_later": false,
+      "stripe_price_id": "price_1SFF1qQ2QHS4rlmeq3yXppnd",
+      "cancel_request": true
+    },
+    "package_info": {
+      "id": 3,
+      "name": "BindRocket Pro",
+      "upload_limit": 0,
+      "chat_limit": null,
+      "member_limit": 1,
+      "MonthlyPrice": 49.99,
+      "YearlyPrice": 599.88
+    },
+    "billingAddons": [
+      {
+        "id": 118,
+        "agency_id": 218,
+        "stripe_customer_id": "cus_TcDFyv6e5RyU4m",
+        "stripe_subscription_id": "sub_1SeypMQ2QHS4rlmepEFBNjjR",
+        "last_invoice_id": "in_1T6RzOQ2QHS4rlmeQCiQE2bU",
+        "agents_count": 2,
+        "amount": "25.40",
+        "interval": "month",
+        "status": "active",
+        "last_payment_status": "success",
+        "next_payment_date": "2026-03-16T14:02:10.000Z",
+        "created_date": "2026-01-21T11:18:17.000Z",
+        "updated_date": "2026-03-
+
+Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiO...
+
+--- 1b: Trying TFA verify endpoints ---
+  POST /api/verify-otp -> 404: {
+  "error": "Route not found"
+}
+  POST /api/two-factor-verify -> 404: {
+  "error": "Route not found"
+}
+  POST /api/verify-two-factor -> 404: {
+  "error": "Route not found"
+}
+  POST /api/two-factor-otp/verify -> 404: {
+  "error": "Route not found"
+}
+  POST /api/verify -> 404: {
+  "error": "Route not found"
+}
+  POST /api/otp/verify -> 404: {
+  "error": "Route not found"
+}
+  GET /api/user -> 404: {
+  "error": "Route not found"
+}
+  GET /api/profile -> 404: {
+  "error": "Route not found"
+}
+  GET /api/dashboard -> 404: {
+  "error": "Route not found"
+}
+  GET /api/forms -> 404: {
+  "error": "Route not found"
+}
+  GET /api/me -> 404: {
+  "error": "Route not found"
+}
+  POST /api/disable-two-factor -> 404: {
+  "error": "Route not found"
+}
+  PUT /api/settings/two-factor -> 404: {
+  "error": "Route not found"
+}
+  POST /api/settings -> 404: {
+  "error": "Route not found"
+}
+
+--- 1c: Check if token works without TFA ---
+  GET /api/agents -> 404: {
+  "error": "Route not found"
+}
+  GET /api/agency -> 200: {
+  "success": true,
+  "data": [
+    {
+      "Id": 126,
+      "AgencyName": "Space X @#42",
+      "AgencyLic": null,
+      "AgentLic": null,
+      "Address": "ATI Center, Sector 11, House # 7 Gareeb-e
+  GET /api/agency/218 -> 200: {
+  "success": true,
+  "data": {
+    "Id": 218,
+    "AgencyName": "Bindrocket Ltd",
+    "AgencyLic": null,
+    "AgentLic": null,
+    "Address": "Newstead VIC 3462, Australia",
+    "City": "New York",
+
+  GET /api/forms -> 404: {
+  "error": "Route not found"
+}
+  GET /api/form-types -> 404: {
+  "error": "Route not found"
+}
+  GET /api/user/503 -> 404: {
+  "error": "Route not found"
+}
+  GET /api/users -> 404: {
+  "error": "Route not found"
+}
+  GET /api/submissions -> 404: {
+  "error": "Route not found"
+}
+  GET /api/leads -> 404: {
+  "error": "Route not found"
+}
+
+
+=== PHASE 2: Selenium with pre-set cookies ===
+Cookies and localStorage set. Trying navigation...
+  [BLOCKED] /portal -> https://dev.bindrocket.com/login (BindRocket)
+  [BLOCKED] /forms -> https://dev.bindrocket.com/login (BindRocket)
+  [BLOCKED] /portal/forms -> https://dev.bindrocket.com/portal/forms (404: This page could not be found.)
+  [BLOCKED] /dashboard -> https://dev.bindrocket.com/dashboard (404: This page could not be found.)
+
+=== DONE ===

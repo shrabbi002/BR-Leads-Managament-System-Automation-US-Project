@@ -1,0 +1,72 @@
+=== STEP 1: LOGIN ===
+URL after login: https://dev.bindrocket.com/login
+
+=== COOKIES ===
+  agent_id = af884b7a-6ce1-470d-8a35-5c0612e13818
+  external_user = false
+  firstname = Emily%20
+  token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUwMywicm9sZUlkIjoxLCJpYXQiOjE3NzMwNTA4MTUsImV4cCI6MTc3MzY1NTYxNX0.3cQJoPe7K8fe5E75f9Hr8TgqfvhyWfBNrOcEWsOvNTk
+  user_id = 503
+  email = sam201td@gmail.com
+  role = Manager
+  lastname = Jerry
+  seentour = false
+  agency_id = 218
+
+=== LOCAL STORAGE ===
+  package_info = {"id":3,"name":"BindRocket Pro","upload_limit":0,"chat_limit":null,"member_limit":1,"MonthlyPrice":49.99,"YearlyPrice":599.88}
+  billing = {"id":239,"agency_id":218,"package_type_id":3,"stripe_customer_id":"cus_TcDFyv6e5RyU4m","amount":"50.00","status":"active","stripe_subscription_id":"sub_1SeypMQ2QHS4rlmepEFBNjjR","last_invoice_id":"in_1T6RzOQ2QHS4rlmeQCiQE2bU","last_payment_status":"success","next_payment_date":"2026-03-16T14:02:10.000Z","created_date":"2025-10-07T17:30:49.000Z","updated_date":"2026-03-04T09:15:53.000Z","interval":"monthly","coupon_code":"FIRSTYEAR","pay_later":false,"stripe_price_id":"price_1SFF1qQ2QHS4rlmeq3yXppnd","cancel_request":true}
+  billing_addons = [{"id":118,"agency_id":218,"stripe_customer_id":"cus_TcDFyv6e5RyU4m","stripe_subscription_id":"sub_1SeypMQ2QHS4rlmepEFBNjjR","last_invoice_id":"in_1T6RzOQ2QHS4rlmeQCiQE2bU","agents_count":2,"amount":"25.40","interval":"month","status":"active","last_payment_status":"success","next_payment_date":"2026-03-16T14:02:10.000Z","created_date":"2026-01-21T11:18:17.000Z","updated_date":"2026-03-04T09:15:54.000Z","package_type_id":"6","stripe_price_id":"price_1RxqzzQ2QHS4rlmelBy9LzTJ","packageName":"Buy Single Agent"},{"id":116,"agency_id":218,"stripe_customer_id":"cus_TC2otEYA2hz1K8","stripe_subscription_id":"sub_1SShJ9Q2QHS4rlmeF2HIyXVB","last_invoice_id":"in_1SSi9wQ2QHS4rlmegTB66hLG","agents_count":2,"amount":"249.35","interval":"month","status":"trialing","last_payment_status":"success","next_payment_date":null,"created_date":"2025-11-12T16:55:07.000Z","updated_date":"2025-11-12T17:49:17.000Z","package_type_id":"6","stripe_price_id":"price_1RxqzzQ2QHS4rlmelBy9LzTJ","packageName":"Buy Single Agent"},{"id":99,"agency_id":218,"stripe_customer_id":"cus_TC2otEYA2hz1K8","stripe_subscription_id":"sub_1SFejXQ2QHS4rlmemOEQjd3j","last_invoice_id":"in_1SFgD0Q2QHS4rlmeoAgZMQAs","agents_count":9,"amount":"250.00","interval":"month","status":"cancelled","last_payment_status":"success","next_payment_date":"2025-12-12T16:54:08.000Z","created_date":"2025-10-07T17:30:49.000Z","updated_date":"2025-12-12T17:47:08.000Z","package_type_id":"6","stripe_price_id":"price_1RxqzzQ2QHS4rlmelBy9LzTJ","packageName":"Buy Single Agent"}]
+  __ph_opt_in_out_ = 0
+
+=== SESSION STORAGE ===
+
+=== API CALLS (from performance logs) ===
+  GET https://dev.bindrocket.com/login
+  GET https://dev.bindrocket.com/_next/image?url=%2Fauth%2Fbg1.png&w=1920&q=75
+  GET https://dev.bindrocket.com/_next/static/chunks/app/(auth)/login/page-1bf13d049b4e8442.js
+  GET https://dev.bindrocket.com/_next/static/chunks/app/(auth)/layout-e24688fde422eba2.js
+  GET https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+  GET https://dev.bindrocket.com/_next/static/chunks/app/(auth)/forgot-password/page-2ebe99d55e931cc6.js
+  OPTIONS https://dev-api.bindrocket.com/api/login
+  POST https://dev-api.bindrocket.com/api/login
+    Body: {"email":"sam201td@gmail.com","password":"Shrabbi1234@#"}
+  OPTIONS https://dev-api.bindrocket.com/api/two-factor-otp
+  POST https://dev-api.bindrocket.com/api/two-factor-otp
+    Body: {"email":"sam201td@gmail.com"}
+    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUwMywicm9sZUlkIjoxLCJpYXQiOjE3NzMwNTA4MTUsImV4cCI6MTc3MzY1NTYxNX0.3cQJoPe7K8fe5E75f9Hr8TgqfvhyWfBNrOcEWsOvNTk
+  GET https://dev.bindrocket.com/two-factor?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818&_rsc=tbe6m
+  GET https://dev.bindrocket.com/_next/static/chunks/app/(auth)/two-factor/page-88be01e0b3594cdf.js
+
+=== BYPASS ATTEMPTS ===
+  [BLOCKED] /portal/dashboard -> https://dev.bindrocket.com/portal/dashboard (title: 404: This page could not be found.)
+  [BLOCKED] /portal -> https://dev.bindrocket.com/login (title: BindRocket)
+  [BLOCKED] /dashboard -> https://dev.bindrocket.com/dashboard (title: 404: This page could not be found.)
+  [BLOCKED] /home -> https://dev.bindrocket.com/home (title: 404: This page could not be found.)
+  [BLOCKED] /forms -> https://dev.bindrocket.com/login (title: BindRocket)
+  [BLOCKED] /portal/forms -> https://dev.bindrocket.com/portal/forms (title: 404: This page could not be found.)
+  [BLOCKED] /agent/dashboard -> https://dev.bindrocket.com/agent/dashboard (title: 404: This page could not be found.)
+  [BLOCKED] /app -> https://dev.bindrocket.com/app (title: 404: This page could not be found.)
+  [BLOCKED] /app/dashboard -> https://dev.bindrocket.com/app/dashboard (title: 404: This page could not be found.)
+
+=== COOKIE MANIPULATION ===
+Re-login URL: https://dev.bindrocket.com/two-factor?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+  After manipulation [BLOCKED] /portal/dashboard -> https://dev.bindrocket.com/portal/dashboard (404: This page could not be found.)
+  After manipulation [BLOCKED] /portal -> https://dev.bindrocket.com/login (BindRocket)
+  After manipulation [BLOCKED] /forms -> https://dev.bindrocket.com/login (BindRocket)
+
+=== TFA PAGE DOM ANALYSIS ===
+Total elements on TFA page: 61
+Forms found: 1
+  Form[0]: action=https://dev.bindrocket.com/two-factor?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818 method=get
+Input fields: 1
+  Input[0]: type=text name= id= placeholder=Enter Verification Code
+Buttons: 1
+  Button[0]: text='Submit' type=submit
+Links: 3
+  Link[0]: text='' href=https://dev.bindrocket.com/
+  Link[1]: text='Resend Now' href=https://dev.bindrocket.com/two-factor?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818#
+  Link[2]: text='A&C Inc' href=https://www.agentsandcarriers.com/
+
+=== DONE ===
+Results saved to recon_results.txt

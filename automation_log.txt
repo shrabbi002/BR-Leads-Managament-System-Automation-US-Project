@@ -1,0 +1,48 @@
+==================================================
+  BindRocket Auto Form — ULTRA FAST
+  2026-03-09 10:32:17
+==================================================
+
+🔐 Logging in via API...
+   ✅ Logged in (1.6s)
+
+🌐 Opening browser + loading form...
+   ✅ Form ready (13.8s)
+
+📝 Filling form...
+   👤 Karina Holmes | karina.holmes87@gmail.com | (107) 218-0246
+   📅 DOB: 04/13/1966 | Effective: 04/04/2026 | Renewal: 06/18/2026
+   🚗 VIN: 2TGM72064X995506 | Carrier: Progressive | Premium: $1875
+   ✅ Client Lookup: Karina Holmes
+   ✅ First Name: Karina
+   ✅ Last Name: Holmes
+   ✅ Email: karina.holmes87@gmail.com
+   ✅ Work Phone: (107) 218-0246
+   ✅ Mobile: (107) 218-0246
+   ✅ Date of Birth: 04/13/1966
+   ✅ Street Address: IllinoisUSA
+   ✅ Garage Address: IllinoisUSA
+   ✅ Effective Date: 04/04/2026
+   ✅ Checkboxes: 2 checked
+   ✅ Radio [hasPreviousAddress]: selected
+   ✅ Driver Name: Karina Holmes
+   ✅ Driver DOB: 04/13/1966
+   ✅ License: J2310623
+   ✅ Radio [coverageType]: selected
+   ✅ VIN: 2TGM72064X995506
+   ✅ Carrier Name: Progressive
+   ✅ Renewal Date: 06/18/2026
+   ✅ Premium: $1875
+   ✅ Duration: 3 years
+   ⚡ Form filled in 3.4s
+
+💾 Saving form...
+   ✅ Save button clicked!
+📋 Lead Source modal detected...
+   ✅ Lead Source: Renewal
+   ✅ Saved!
+
+==================================================
+  ✅ Done in 23.4s
+  📍 URL: https://dev.bindrocket.com/forms/auto?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+==================================================

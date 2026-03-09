@@ -1,0 +1,81 @@
+==================================================
+  BindRocket HEALTHCARE Form — ULTRA FAST
+  2026-03-09 12:39:15
+==================================================
+
+🔐 Logging in...
+   ✅ Logged in (1.5s)
+
+🌐 Loading Healthcare form...
+   ✅ Form ready (19.5s)
+
+   📊 Found 22 visible form fields:
+   [0] <input> type=text name= id= ph="Client Lookup"
+   [1] <input> type=text name=firstName id= ph="Enter First Name"
+   [2] <input> type=text name=lastName id= ph="Enter Last Name"
+   [3] <input> type=email name=emailAddress id= ph="Enter Email Address"
+   [4] <input> type=text name= id=location-search-input ph="Address"
+   [5] <input> type=text name=mobileNumber id= ph="(XXX) XXX-XXXX"
+   [6] <input> type=text name=workNumber id= ph="(XXX) XXX-XXXX"
+   [7] <input> type=text name= id= ph="MM/DD/YYYY"
+   [8] <input> type=text name= id= ph=""
+   [9] <input> type=radio name=gender id= ph=""
+   [10] <input> type=radio name=gender id= ph=""
+   [11] <input> type=radio name=tobacoUsage id= ph=""
+   [12] <input> type=radio name=tobacoUsage id= ph=""
+   [13] <select> type=select-one name=immigrantStatus id= ph=""
+   [14] <select> type=select-one name=employmentStatus id= ph=""
+   [15] <input> type=text name=incomeAmount id= ph="Income Amount"
+   [16] <input> type=text name=dependents.0.name id= ph="Enter Dependent Name"
+   [17] <input> type=date name=dependents.0.dob id= ph=""
+   [18] <select> type=select-one name=dependents.0.gender id= ph=""
+   [19] <select> type=select-one name=dependents.0.immigration id= ph=""
+   [20] <select> type=select-one name=dependents.0.relation id= ph=""
+   [21] <select> type=select-one name=dependents.0.tobacco id= ph=""
+
+📝 Filling Healthcare form...
+   👤 Ashley Werner | ashley.werner68@gmail.com | (209) 513-3238
+   📅 DOB: 04/15/1971 | Income: $35310
+   👶 Dependent: Alexander Werner | Relation: Other
+
+   ─── Personal Information ───
+   ✅ Client Lookup: Ashley Werner
+   ✅ First Name: Ashley
+   ✅ Last Name: Werner
+   ✅ Email: ashley.werner68@gmail.com
+   ✅ Address: GeorgiaUSA
+   ✅ Mobile: (209) 513-3238
+   ✅ Work Phone: (529) 330-3412
+   ✅ Date of Birth: 04/15/1971
+
+   ─── Radios ───
+   ✅ Radio [gender]: option 1 selected
+   ✅ Radio [tobacoUsage]: option 1 selected
+
+   ─── Dropdowns ───
+   ✅ Select [immigrantStatus]: Immigrant
+   ✅ Select [employmentStatus]: Job
+
+   ─── Income ───
+   ✅ Income Amount: 35310
+
+   ─── Dependent ───
+   ✅ Dependent Name: Alexander Werner
+   ✅ Dependent DOB: 12/16/2024
+   ✅ Select [dependents.0.gender]: Male
+   ✅ Select [dependents.0.immigration]: Citizen
+   ✅ Select [dependents.0.relation]: Ex-Spouse
+   ✅ Select [dependents.0.tobacco]: No
+
+   ⚡ Form filled in 1.8s
+
+💾 Saving...
+   ✅ Save clicked!
+📋 Lead Source modal...
+   ✅ Lead Source: selected
+   ✅ Saved!
+
+==================================================
+  ✅ Done in 27.4s
+  📍 https://dev.bindrocket.com/forms/healthcare?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+==================================================
