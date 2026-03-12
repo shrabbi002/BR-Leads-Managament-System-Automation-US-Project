@@ -1,0 +1,83 @@
+============================================================
+  BindRocket GL (General Liability) Form — ULTRA FAST
+  2026-03-10 12:42:29
+============================================================
+
+🔐 Logging in via API...
+   ✅ Logged in (1.3s)
+
+🌐 Opening browser + loading GL form...
+   ✅ GL Form ready (14.3s)
+
+📝 Filling GL Form...
+   👤 Sean Trujillo | sean.trujillo77@gmail.com | (166) 692-0685
+   🏢 Stevens Inc | DBA: Sean's Group
+   📅 Biz Start: 03/05/2023 | Effective: 03/16/2026
+   🛡️ Gen Agg: $1000000 | Each Occ: $500000
+
+── Section 1: General Information ──
+   ✅ First Name: Sean
+   ✅ Last Name: Trujillo
+   ✅ DBA: Sean's Group
+   ✅ Business Name: Stevens Inc
+   ⚠️ Business Description: no dropdown option found, typed 'Beauty Salon'
+   ✅ Business Start Date: 03/05/2023
+   ✅ Work Phone: (166) 692-0685
+   ✅ Mobile Number: (289) 307-2363
+   ✅ Email Address: sean.trujillo77@gmail.com
+   ✅ Effective Date: 03/16/2026
+   ✅ Location Address: ArizonaUSA
+   ✅ Checkboxes: 5 checked
+   ⚠️ Mailing Address: Message: invalid element state
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6c135aa55
+	0x7ff6c10b8630
+	0x7ff6c0e4d546
+	0x7ff6c0e9d903
+	0x7ff6c0ed19da
+	0x7ff6c0e9aca6
+	0x7ff6c0ef591c
+	0x7ff6c0e99098
+	0x7ff6c0e99f83
+	0x7ff6c1387810
+	0x7ff6c1381afd
+	0x7ff6c13a2c1a
+	0x7ff6c10d3345
+	0x7ff6c10db81c
+	0x7ff6c10c1924
+	0x7ff6c10c1ad6
+	0x7ff6c10a7e47
+	0x7ffc68e4e8d7
+	0x7ffc6a5ac40c
+
+
+── Section 2: General Liability & Limit ──
+   ✅ General Aggregate: 1000000
+   ✅ Products & Comp Ops Aggregate: 2000000
+   ✅ Personal & Adv Injury: 500000
+   ✅ Each Occurrence: 500000
+   ✅ Damage to Premises: 300000
+   ✅ Medical Expense: 10000
+   ✅ Other Coverage/Endorsements: Standard GL coverage
+   ✅ Deductible: 5000
+   ⚠️ Checkbox [Premium Amount]: not found
+   ✅ Premium Amount: 1545
+   ⚠️ Checkbox [Payroll]: not found
+   ✅ Payroll: 71732
+   ⚠️ Checkbox [TIV]: not found
+   ✅ TIV: 159630
+   ✅ Number of Employees: 59
+   ✅ Annual Sales: 4793332
+
+   ⚡ GL Form filled in 8.5s
+
+💾 Saving form...
+   ✅ Save button clicked!
+   ℹ️ No Lead Source modal detected
+
+============================================================
+  ✅ GL Form Done in 27.5s
+  📍 URL: https://dev.bindrocket.com/forms/general_liability?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+============================================================

@@ -1,0 +1,116 @@
+=================================================================
+  BindRocket Commercial Auto Application — ULTRA FAST
+  2026-03-11 11:19:48
+=================================================================
+
+🔐 Logging in via API...
+   ✅ Logged in (1.4s)
+
+🌐 Opening browser + loading Commercial Auto form...
+   ✅ Commercial Auto Form ready (12.7s)
+
+📝 Filling Commercial Auto Form...
+   👤 Sean Hansen | sean.hansen58@gmail.com | (903) 153-2561
+   🏢 Rodgers Ltd | DBA: Sean's Trucking
+   📅 Effective: 04/03/2026 | Biz Start: 08/10/2018
+   🚛 VIN: 5HCM30964R311959 | 2024 Freightliner Express
+   🪪 License: I3514144 | Type: Class E
+
+── Section 1: Personal Information ──
+   ✅ First Name: Sean
+   ✅ Last Name: Hansen
+   ✅ Email Address: sean.hansen58@gmail.com
+   ✅ Business Name: Rodgers Ltd
+   ✅ DBA: Sean's Trucking
+   ✅ Work Phone: (903) 153-2561
+   ✅ Mobile Number: (712) 243-5634
+   ✅ Effective Date: 04/03/2026
+   ✅ Radio [Entity Type: Individual]: Yes
+   ✅ Location Address: GeorgiaUSA
+   ✅ Checkbox [Same as Location Address]: checked
+
+── Section 2: Operations Information ──
+   ⚠️ Business Description: no dropdown option found, typed 'Waste Management'
+   ✅ Business Start Date: 08/10/2018
+   ✅ Vehicle Usage: Service
+   ✅ Radio [New Venture]: No
+   ✅ Years of Experience: 3
+   ✅ Radio [Primary Business]: Yes
+   ✅ Radio [Haul for Hire]: No
+   ✅ Radio [Own Cargo Exclusive]: Yes
+   ✅ Gross Receipts Last Year: 576793
+   ✅ Gross Receipts Coming Year: 2194539
+   ✅ Radio [Operate Multi-State]: No
+   ✅ Largest City: Phoenix
+   ✅ Radio [Repossessions]: No
+   ✅ Radio [Regular Route]: No
+   ✅ Radio [Common Carrier]: No
+   ✅ Radio [Contract Hauler]: No
+   ✅ Cargo Type: Building Materials
+   ✅ Radio [Haul Hazardous Materials]: No
+   ✅ Radio [Pull Double Trailers]: No
+   ✅ Radio [Pull Triple Trailers]: No
+   ✅ Radio [Rent/Lease Vehicle]: No
+   ✅ Radio [Hire Vehicles]: No
+   ✅ Radio [Declined/Canceled]: No
+   ✅ Radio [Previous Comm. Auto Insurance]: Yes
+   ✅ Number of Accidents: 1
+   ✅ Loss Details: Pretty contain try pressure wait son forget exist her help.
+
+── Section 3: Driver(s) Information ──
+   ✅ Checkbox [Same as Applicant]: checked
+   ✅ Driver Name: Sean Hansen
+   ✅ Driver DOB: 08/29/1989
+   ✅ License State: Alabama
+   ✅ License Number: I3514144
+   ✅ License Type: Class E
+   ✅ Unit Type: Straight Truck
+   ✅ Driver Years: 23
+
+── Section 4: Vehicle(s) Information ──
+   ✅ VIN: 5HCM30964R311959
+   ✅ Vehicle Year: 2024
+   ✅ Vehicle Make: Freightliner
+   ✅ Vehicle Model: Express
+   ✅ Body Style: Stake Bed
+   ✅ GVW: 14000
+   ✅ Garaging Address: GeorgiaUSA
+   ✅ Radius: 500
+   ✅ Annual Mileage: 91609
+   ✅ Rear Axles: 1
+   ✅ Safety Devices: Backup Camera
+
+── Section 5: Fillings Information ──
+   ✅ Radio [FHWA Filing Required]: No
+   ✅ Radio [Authority Type: Contract]: 2
+   ✅ Registration State: FL
+   ✅ Radio [Intrastate Filing]: No
+   ✅ Cargo Filing States: TX, CA, FL
+   ✅ Permit Name & Address: Rodgers Ltd, PSC 5684, Box 7552, APO AP 83509
+   ✅ Radio [MCS 90 Endorsement]: No
+   ✅ Radio [Policy Covers All Vehicles]: Yes
+   ✅ Radio [Oversize/Overweight]: No
+   ✅ Radio [Escort Vehicles Towed]: No
+   ✅ Radio [Authority Hazardous Transport]: No
+   ✅ Radio [Others Haul Hazardous]: No
+   ✅ Radio [Enter Canada]: No
+   ✅ Radio [Enter Mexico]: No
+   ✅ Radio [Name Changed]: No
+   ✅ Radio [Other Company Name]: No
+   ✅ Radio [Subsidiary]: No
+   ✅ Radio [Other Transport Ops]: No
+   ✅ Radio [Lease Authority]: No
+   ✅ Radio [Appoint Agents]: No
+   ✅ Radio [Carrier Agreements]: No
+   ✅ Additional Comments: Leave hold little camera environment myself develop how.
+
+   ⚡ Commercial Auto Form filled in 12.9s
+
+💾 Saving form...
+   ✅ Save button clicked!
+   ℹ️ No Lead Source modal detected
+
+=================================================================
+  ✅ Commercial Auto Form Done in 30.2s
+  📍 URL: https://dev.bindrocket.com/forms/commercial_auto?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+=================================================================

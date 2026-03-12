@@ -1,0 +1,62 @@
+============================================================
+  BindRocket Property (Prop) Form — ULTRA FAST
+  2026-03-10 12:54:00
+============================================================
+
+🔐 Logging in via API...
+   ✅ Logged in (1.6s)
+
+🌐 Opening browser + loading Prop form...
+   ✅ Prop Form ready (15.2s)
+
+📝 Filling Property Form...
+   👤 Rachel Johnson | rachel.johnson27@gmail.com | (788) 338-2626
+   🏢 Hernandez-Rodriguez | DBA: Rachel's Enterprise
+   📅 Biz Start: 07/11/2022 | Effective: 03/26/2026
+   🏠 Sq Ft: 5773 | BPP: $151608 | Building: $3446083
+
+── Section 1: General Information ──
+   ✅ First Name: Rachel
+   ✅ Last Name: Johnson
+   ✅ DBA: Rachel's Enterprise
+   ✅ Business Name: Hernandez-Rodriguez
+   ⚠️ Business Description: no dropdown option found, typed 'Auto Repair'
+   ✅ Business Start Date: 07/11/2022
+   ⚠️ Hours Start: time field #0 not found
+   ⚠️ Hours End: time field #1 not found
+   ✅ Work Phone: (788) 338-2626
+   ✅ Mobile Number: (433) 009-6958
+   ✅ Email Address: rachel.johnson27@gmail.com
+   ✅ Effective Date: 03/26/2026
+   ✅ Location Address: ArizonaUSA
+   ✅ Same as Location Address: checked
+
+── Section 2: Property Information ──
+   ✅ Sq Ft: 5773
+   ✅ Gross Sales: 1057369
+   ✅ Radio [Tenant]: No
+   ✅ BPP/Content Value: 151608
+   ✅ Money & Securities: 46895
+   ✅ Building Value: 3446083
+   ✅ Sign Value: 7641
+   ✅ Radio [Loss Runs Received]: No
+   ✅ Business Operation: Heart series sport reveal none vote my....
+   ✅ Biz Op (input fallback): Heart series sport reveal none vote my.
+   ✅ Checkbox [Fire Alarm]: checked
+   ✅ Checkbox [CCTV Camera]: checked
+   ✅ Checkbox [Burglar Alarm]: checked
+   ✅ Radio [Claim In Past 5 Years]: No
+   ✅ Radio [Additional Insured]: No
+   ✅ Checkbox [Accessories]: checked
+   ✅ Checkbox [New Cell Phone Store]: checked
+
+   ⚡ Property Form filled in 7.3s
+
+💾 Saving form...
+   ✅ Save button clicked!
+   ℹ️ No Lead Source modal detected
+
+============================================================
+  ✅ Property Form Done in 27.4s
+  📍 URL: https://dev.bindrocket.com/forms/property?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+============================================================

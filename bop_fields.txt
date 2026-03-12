@@ -1,0 +1,18 @@
+Logged in. agency_id=218, agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+
+Trying: https://dev.bindrocket.com/forms/bop?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+  Current URL: https://dev.bindrocket.com/forms/bop?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+  Heading: Application error: a client-side exception has occurred (see the browser console for more information).
+
+*** FOUND WORKING URL: /forms/bop ***
+
+Sidebar items: []
+
+=== Section 1 (default view) ===
+Found 0 visible inputs:
+
+Labels: []
+
+All headers on page: []
+
+Done!

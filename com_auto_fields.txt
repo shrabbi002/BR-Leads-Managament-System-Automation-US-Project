@@ -1,0 +1,810 @@
+
+============================================================
+SECTION: Personal Information
+============================================================
+  [INPUT] type=text | ph="Client Lookup" | name="" | id=""
+  [INPUT] type=text | ph="Enter First Name" | name="firstName" | id=""
+  [INPUT] type=text | ph="Enter Last Name" | name="lastName" | id=""
+  [INPUT] type=email | ph="Enter Email Address" | name="email" | id=""
+  [INPUT] type=text | ph="Enter Business Name" | name="businessName" | id=""
+  [INPUT] type=text | ph="Enter DBA" | name="dbaname" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="workNum" | id=""
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="mobileNumber" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=text | ph="Search business description" | name="businessDesc_label" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Vehicle Usage" | name="vehicleUsage" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=text | ph="Enter Years of Experience" | name="yearsOfExperience" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=text | ph="Enter Gross Receipts Last Year" | name="grossReceipts" | id=""
+  [INPUT] type=text | ph="Enter Estimate Gross Receipts For Coming Year" | name="grossRecieptsUpcoming" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=text | ph="Enter Name of the City" | name="cityName" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=text | ph="Enter Types of Cargo Hauled" | name="cargoType" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=number | ph="Enter number of Accidents" | name="noOfAccidents" | id=""
+  [TEXTAREA] type=textarea | ph="Provide Details of Losses" | name="lossDetail" | id=""
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Driver Name" | name="" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [SELECT] type=select-one | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter License No." | name="" | id=""
+  [INPUT] type=text | ph="Enter Type" | name="" | id=""
+  [INPUT] type=text | ph="Enter Unit Type" | name="" | id=""
+  [INPUT] type=number | ph="Enter Years" | name="" | id=""
+  [INPUT] type=text | ph="Enter 17-character VIN" | name="" | id=""
+  [INPUT] type=number | ph="e.g. 2020" | name="" | id=""
+  [INPUT] type=text | ph="e.g. Volvo" | name="" | id=""
+  [INPUT] type=text | ph="e.g. FH16" | name="" | id=""
+  [INPUT] type=text | ph="Pickup, Wrecker, etc." | name="" | id=""
+  [INPUT] type=number | ph="Enter GVW" | name="" | id=""
+  [INPUT] type=text | ph="Enter Garaging Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Enter Number" | name="" | id=""
+  [INPUT] type=text | ph="Enter Safety Devices" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=text | ph="Enter Registration or Base State" | name="isInterstateCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=text | ph="Enter List of States" | name="listOfStates" | id=""
+  [INPUT] type=text | ph="Enter Exact Name and Address" | name="permitsIssued" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [TEXTAREA] type=textarea | ph="Enter Additional Comments" | name="additionalComments" | id=""
+
+  --- RADIO BUTTONS ---
+  RADIO name="entityType" | question="Type Of Entity" | opts=['Individual', 'Partnership', 'Corporation', 'Other']
+  RADIO name="newVenture" | question="New Venture?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPrimary" | question="Is this your primary business?" | opts=['YesNo', 'YesNo']
+  RADIO name="isHaul" | question="Do you haul for hire?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulByOwn" | question="Do you haul your own cargo exclusively?" | opts=['YesNo', 'YesNo']
+  RADIO name="operateArea" | question="Do you operate in more than one state?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRepossessions" | question="Do you do repossessions?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOperated" | question="Do you operate over a regular route?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCommonCarrier" | question="Are you a common carrier?" | opts=['YesNo', 'YesNo']
+  RADIO name="isContractHauler" | question="Are you a contract hauler?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulMaterials" | question="Do you Haul Hazardous Materials?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullDouble" | question="Do You Pull Double Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullTriple" | question="Do You Pull Triple Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRenting" | question="Do You Rent or Lease Your Vehicle to Others?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasVehicle" | question="Do you hire any vehicles?" | opts=['YesNo', 'YesNo']
+  RADIO name="wasDeclined" | question="Have you ever been declined, canceled or non-renewed for this kind of insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasCommercialAuto" | question="Have you previously had commercial auto insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="isFhwaRequired" | question="Is an FHWA filing required?" | opts=['YesNo', 'YesNo']
+  RADIO name="authorityType" | question="Broker" | opts=['BrokerCommonContract', 'BrokerCommonContract', 'BrokerCommonContract']
+  RADIO name="isIntrastate" | question="Is an intrastate filing needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMCS" | question="Is MCS 90 endorsement needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPolicyCovered" | question="Is our policy to cover all vehicles owned, operated or under lease to applicant?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOversize" | question="Are oversize/overweight commodities hauled?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTowed" | question="Are escort vehicles towed on return trips?" | opts=['YesNo', 'YesNo']
+  RADIO name="isAllowed" | question="Does your authority allow for transportation of hazardous commodities?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOthersAllowed" | question="Do you allow others to haul hazardous commodities under your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCanada" | question="Do you enter Canada?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMexico" | question="Do you enter Mexico?" | opts=['YesNo', 'YesNo']
+  RADIO name="isNameChanged" | question="Have you ever changed your operating name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOtherCompany" | question="Do you operate under any other name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isSubsidiary" | question="Do you operate as a subsidiary of another company?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTransportationManaged" | question="Do you own or manage any other transportation operations that are not covered?" | opts=['YesNo', 'YesNo']
+  RADIO name="isLeased" | question="Do you lease your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgentApointment" | question="Do you appoint agents or hire independent contractors to operate on your behalf?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgreements" | question="Do you have agreements with other carriers for the interchange of equipment or transportation of loa" | opts=['YesNo', 'YesNo']
+
+============================================================
+SECTION: Operations Information
+============================================================
+  [INPUT] type=text | ph="Client Lookup" | name="" | id=""
+  [INPUT] type=text | ph="Enter First Name" | name="firstName" | id=""
+  [INPUT] type=text | ph="Enter Last Name" | name="lastName" | id=""
+  [INPUT] type=email | ph="Enter Email Address" | name="email" | id=""
+  [INPUT] type=text | ph="Enter Business Name" | name="businessName" | id=""
+  [INPUT] type=text | ph="Enter DBA" | name="dbaname" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="workNum" | id=""
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="mobileNumber" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=text | ph="Search business description" | name="businessDesc_label" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Vehicle Usage" | name="vehicleUsage" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=text | ph="Enter Years of Experience" | name="yearsOfExperience" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=text | ph="Enter Gross Receipts Last Year" | name="grossReceipts" | id=""
+  [INPUT] type=text | ph="Enter Estimate Gross Receipts For Coming Year" | name="grossRecieptsUpcoming" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=text | ph="Enter Name of the City" | name="cityName" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=text | ph="Enter Types of Cargo Hauled" | name="cargoType" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=number | ph="Enter number of Accidents" | name="noOfAccidents" | id=""
+  [TEXTAREA] type=textarea | ph="Provide Details of Losses" | name="lossDetail" | id=""
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Driver Name" | name="" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [SELECT] type=select-one | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter License No." | name="" | id=""
+  [INPUT] type=text | ph="Enter Type" | name="" | id=""
+  [INPUT] type=text | ph="Enter Unit Type" | name="" | id=""
+  [INPUT] type=number | ph="Enter Years" | name="" | id=""
+  [INPUT] type=text | ph="Enter 17-character VIN" | name="" | id=""
+  [INPUT] type=number | ph="e.g. 2020" | name="" | id=""
+  [INPUT] type=text | ph="e.g. Volvo" | name="" | id=""
+  [INPUT] type=text | ph="e.g. FH16" | name="" | id=""
+  [INPUT] type=text | ph="Pickup, Wrecker, etc." | name="" | id=""
+  [INPUT] type=number | ph="Enter GVW" | name="" | id=""
+  [INPUT] type=text | ph="Enter Garaging Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Enter Number" | name="" | id=""
+  [INPUT] type=text | ph="Enter Safety Devices" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=text | ph="Enter Registration or Base State" | name="isInterstateCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=text | ph="Enter List of States" | name="listOfStates" | id=""
+  [INPUT] type=text | ph="Enter Exact Name and Address" | name="permitsIssued" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [TEXTAREA] type=textarea | ph="Enter Additional Comments" | name="additionalComments" | id=""
+
+  --- RADIO BUTTONS ---
+  RADIO name="entityType" | question="Type Of Entity" | opts=['Individual', 'Partnership', 'Corporation', 'Other']
+  RADIO name="newVenture" | question="New Venture?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPrimary" | question="Is this your primary business?" | opts=['YesNo', 'YesNo']
+  RADIO name="isHaul" | question="Do you haul for hire?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulByOwn" | question="Do you haul your own cargo exclusively?" | opts=['YesNo', 'YesNo']
+  RADIO name="operateArea" | question="Do you operate in more than one state?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRepossessions" | question="Do you do repossessions?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOperated" | question="Do you operate over a regular route?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCommonCarrier" | question="Are you a common carrier?" | opts=['YesNo', 'YesNo']
+  RADIO name="isContractHauler" | question="Are you a contract hauler?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulMaterials" | question="Do you Haul Hazardous Materials?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullDouble" | question="Do You Pull Double Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullTriple" | question="Do You Pull Triple Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRenting" | question="Do You Rent or Lease Your Vehicle to Others?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasVehicle" | question="Do you hire any vehicles?" | opts=['YesNo', 'YesNo']
+  RADIO name="wasDeclined" | question="Have you ever been declined, canceled or non-renewed for this kind of insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasCommercialAuto" | question="Have you previously had commercial auto insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="isFhwaRequired" | question="Is an FHWA filing required?" | opts=['YesNo', 'YesNo']
+  RADIO name="authorityType" | question="Broker" | opts=['BrokerCommonContract', 'BrokerCommonContract', 'BrokerCommonContract']
+  RADIO name="isIntrastate" | question="Is an intrastate filing needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMCS" | question="Is MCS 90 endorsement needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPolicyCovered" | question="Is our policy to cover all vehicles owned, operated or under lease to applicant?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOversize" | question="Are oversize/overweight commodities hauled?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTowed" | question="Are escort vehicles towed on return trips?" | opts=['YesNo', 'YesNo']
+  RADIO name="isAllowed" | question="Does your authority allow for transportation of hazardous commodities?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOthersAllowed" | question="Do you allow others to haul hazardous commodities under your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCanada" | question="Do you enter Canada?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMexico" | question="Do you enter Mexico?" | opts=['YesNo', 'YesNo']
+  RADIO name="isNameChanged" | question="Have you ever changed your operating name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOtherCompany" | question="Do you operate under any other name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isSubsidiary" | question="Do you operate as a subsidiary of another company?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTransportationManaged" | question="Do you own or manage any other transportation operations that are not covered?" | opts=['YesNo', 'YesNo']
+  RADIO name="isLeased" | question="Do you lease your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgentApointment" | question="Do you appoint agents or hire independent contractors to operate on your behalf?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgreements" | question="Do you have agreements with other carriers for the interchange of equipment or transportation of loa" | opts=['YesNo', 'YesNo']
+
+============================================================
+SECTION: Driver(s) Information
+============================================================
+  [INPUT] type=text | ph="Client Lookup" | name="" | id=""
+  [INPUT] type=text | ph="Enter First Name" | name="firstName" | id=""
+  [INPUT] type=text | ph="Enter Last Name" | name="lastName" | id=""
+  [INPUT] type=email | ph="Enter Email Address" | name="email" | id=""
+  [INPUT] type=text | ph="Enter Business Name" | name="businessName" | id=""
+  [INPUT] type=text | ph="Enter DBA" | name="dbaname" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="workNum" | id=""
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="mobileNumber" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=text | ph="Search business description" | name="businessDesc_label" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Vehicle Usage" | name="vehicleUsage" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=text | ph="Enter Years of Experience" | name="yearsOfExperience" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=text | ph="Enter Gross Receipts Last Year" | name="grossReceipts" | id=""
+  [INPUT] type=text | ph="Enter Estimate Gross Receipts For Coming Year" | name="grossRecieptsUpcoming" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=text | ph="Enter Name of the City" | name="cityName" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=text | ph="Enter Types of Cargo Hauled" | name="cargoType" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=number | ph="Enter number of Accidents" | name="noOfAccidents" | id=""
+  [TEXTAREA] type=textarea | ph="Provide Details of Losses" | name="lossDetail" | id=""
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Driver Name" | name="" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [SELECT] type=select-one | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter License No." | name="" | id=""
+  [INPUT] type=text | ph="Enter Type" | name="" | id=""
+  [INPUT] type=text | ph="Enter Unit Type" | name="" | id=""
+  [INPUT] type=number | ph="Enter Years" | name="" | id=""
+  [INPUT] type=text | ph="Enter 17-character VIN" | name="" | id=""
+  [INPUT] type=number | ph="e.g. 2020" | name="" | id=""
+  [INPUT] type=text | ph="e.g. Volvo" | name="" | id=""
+  [INPUT] type=text | ph="e.g. FH16" | name="" | id=""
+  [INPUT] type=text | ph="Pickup, Wrecker, etc." | name="" | id=""
+  [INPUT] type=number | ph="Enter GVW" | name="" | id=""
+  [INPUT] type=text | ph="Enter Garaging Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Enter Number" | name="" | id=""
+  [INPUT] type=text | ph="Enter Safety Devices" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=text | ph="Enter Registration or Base State" | name="isInterstateCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=text | ph="Enter List of States" | name="listOfStates" | id=""
+  [INPUT] type=text | ph="Enter Exact Name and Address" | name="permitsIssued" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [TEXTAREA] type=textarea | ph="Enter Additional Comments" | name="additionalComments" | id=""
+
+  --- RADIO BUTTONS ---
+  RADIO name="entityType" | question="Type Of Entity" | opts=['Individual', 'Partnership', 'Corporation', 'Other']
+  RADIO name="newVenture" | question="New Venture?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPrimary" | question="Is this your primary business?" | opts=['YesNo', 'YesNo']
+  RADIO name="isHaul" | question="Do you haul for hire?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulByOwn" | question="Do you haul your own cargo exclusively?" | opts=['YesNo', 'YesNo']
+  RADIO name="operateArea" | question="Do you operate in more than one state?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRepossessions" | question="Do you do repossessions?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOperated" | question="Do you operate over a regular route?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCommonCarrier" | question="Are you a common carrier?" | opts=['YesNo', 'YesNo']
+  RADIO name="isContractHauler" | question="Are you a contract hauler?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulMaterials" | question="Do you Haul Hazardous Materials?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullDouble" | question="Do You Pull Double Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullTriple" | question="Do You Pull Triple Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRenting" | question="Do You Rent or Lease Your Vehicle to Others?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasVehicle" | question="Do you hire any vehicles?" | opts=['YesNo', 'YesNo']
+  RADIO name="wasDeclined" | question="Have you ever been declined, canceled or non-renewed for this kind of insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasCommercialAuto" | question="Have you previously had commercial auto insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="isFhwaRequired" | question="Is an FHWA filing required?" | opts=['YesNo', 'YesNo']
+  RADIO name="authorityType" | question="Broker" | opts=['BrokerCommonContract', 'BrokerCommonContract', 'BrokerCommonContract']
+  RADIO name="isIntrastate" | question="Is an intrastate filing needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMCS" | question="Is MCS 90 endorsement needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPolicyCovered" | question="Is our policy to cover all vehicles owned, operated or under lease to applicant?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOversize" | question="Are oversize/overweight commodities hauled?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTowed" | question="Are escort vehicles towed on return trips?" | opts=['YesNo', 'YesNo']
+  RADIO name="isAllowed" | question="Does your authority allow for transportation of hazardous commodities?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOthersAllowed" | question="Do you allow others to haul hazardous commodities under your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCanada" | question="Do you enter Canada?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMexico" | question="Do you enter Mexico?" | opts=['YesNo', 'YesNo']
+  RADIO name="isNameChanged" | question="Have you ever changed your operating name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOtherCompany" | question="Do you operate under any other name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isSubsidiary" | question="Do you operate as a subsidiary of another company?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTransportationManaged" | question="Do you own or manage any other transportation operations that are not covered?" | opts=['YesNo', 'YesNo']
+  RADIO name="isLeased" | question="Do you lease your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgentApointment" | question="Do you appoint agents or hire independent contractors to operate on your behalf?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgreements" | question="Do you have agreements with other carriers for the interchange of equipment or transportation of loa" | opts=['YesNo', 'YesNo']
+
+============================================================
+SECTION: Vehicle(s) Information
+============================================================
+  [INPUT] type=text | ph="Client Lookup" | name="" | id=""
+  [INPUT] type=text | ph="Enter First Name" | name="firstName" | id=""
+  [INPUT] type=text | ph="Enter Last Name" | name="lastName" | id=""
+  [INPUT] type=email | ph="Enter Email Address" | name="email" | id=""
+  [INPUT] type=text | ph="Enter Business Name" | name="businessName" | id=""
+  [INPUT] type=text | ph="Enter DBA" | name="dbaname" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="workNum" | id=""
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="mobileNumber" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=text | ph="Search business description" | name="businessDesc_label" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Vehicle Usage" | name="vehicleUsage" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=text | ph="Enter Years of Experience" | name="yearsOfExperience" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=text | ph="Enter Gross Receipts Last Year" | name="grossReceipts" | id=""
+  [INPUT] type=text | ph="Enter Estimate Gross Receipts For Coming Year" | name="grossRecieptsUpcoming" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=text | ph="Enter Name of the City" | name="cityName" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=text | ph="Enter Types of Cargo Hauled" | name="cargoType" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=number | ph="Enter number of Accidents" | name="noOfAccidents" | id=""
+  [TEXTAREA] type=textarea | ph="Provide Details of Losses" | name="lossDetail" | id=""
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Driver Name" | name="" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [SELECT] type=select-one | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter License No." | name="" | id=""
+  [INPUT] type=text | ph="Enter Type" | name="" | id=""
+  [INPUT] type=text | ph="Enter Unit Type" | name="" | id=""
+  [INPUT] type=number | ph="Enter Years" | name="" | id=""
+  [INPUT] type=text | ph="Enter 17-character VIN" | name="" | id=""
+  [INPUT] type=number | ph="e.g. 2020" | name="" | id=""
+  [INPUT] type=text | ph="e.g. Volvo" | name="" | id=""
+  [INPUT] type=text | ph="e.g. FH16" | name="" | id=""
+  [INPUT] type=text | ph="Pickup, Wrecker, etc." | name="" | id=""
+  [INPUT] type=number | ph="Enter GVW" | name="" | id=""
+  [INPUT] type=text | ph="Enter Garaging Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Enter Number" | name="" | id=""
+  [INPUT] type=text | ph="Enter Safety Devices" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=text | ph="Enter Registration or Base State" | name="isInterstateCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=text | ph="Enter List of States" | name="listOfStates" | id=""
+  [INPUT] type=text | ph="Enter Exact Name and Address" | name="permitsIssued" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [TEXTAREA] type=textarea | ph="Enter Additional Comments" | name="additionalComments" | id=""
+
+  --- RADIO BUTTONS ---
+  RADIO name="entityType" | question="Type Of Entity" | opts=['Individual', 'Partnership', 'Corporation', 'Other']
+  RADIO name="newVenture" | question="New Venture?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPrimary" | question="Is this your primary business?" | opts=['YesNo', 'YesNo']
+  RADIO name="isHaul" | question="Do you haul for hire?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulByOwn" | question="Do you haul your own cargo exclusively?" | opts=['YesNo', 'YesNo']
+  RADIO name="operateArea" | question="Do you operate in more than one state?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRepossessions" | question="Do you do repossessions?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOperated" | question="Do you operate over a regular route?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCommonCarrier" | question="Are you a common carrier?" | opts=['YesNo', 'YesNo']
+  RADIO name="isContractHauler" | question="Are you a contract hauler?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulMaterials" | question="Do you Haul Hazardous Materials?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullDouble" | question="Do You Pull Double Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullTriple" | question="Do You Pull Triple Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRenting" | question="Do You Rent or Lease Your Vehicle to Others?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasVehicle" | question="Do you hire any vehicles?" | opts=['YesNo', 'YesNo']
+  RADIO name="wasDeclined" | question="Have you ever been declined, canceled or non-renewed for this kind of insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasCommercialAuto" | question="Have you previously had commercial auto insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="isFhwaRequired" | question="Is an FHWA filing required?" | opts=['YesNo', 'YesNo']
+  RADIO name="authorityType" | question="Broker" | opts=['BrokerCommonContract', 'BrokerCommonContract', 'BrokerCommonContract']
+  RADIO name="isIntrastate" | question="Is an intrastate filing needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMCS" | question="Is MCS 90 endorsement needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPolicyCovered" | question="Is our policy to cover all vehicles owned, operated or under lease to applicant?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOversize" | question="Are oversize/overweight commodities hauled?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTowed" | question="Are escort vehicles towed on return trips?" | opts=['YesNo', 'YesNo']
+  RADIO name="isAllowed" | question="Does your authority allow for transportation of hazardous commodities?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOthersAllowed" | question="Do you allow others to haul hazardous commodities under your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCanada" | question="Do you enter Canada?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMexico" | question="Do you enter Mexico?" | opts=['YesNo', 'YesNo']
+  RADIO name="isNameChanged" | question="Have you ever changed your operating name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOtherCompany" | question="Do you operate under any other name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isSubsidiary" | question="Do you operate as a subsidiary of another company?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTransportationManaged" | question="Do you own or manage any other transportation operations that are not covered?" | opts=['YesNo', 'YesNo']
+  RADIO name="isLeased" | question="Do you lease your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgentApointment" | question="Do you appoint agents or hire independent contractors to operate on your behalf?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgreements" | question="Do you have agreements with other carriers for the interchange of equipment or transportation of loa" | opts=['YesNo', 'YesNo']
+
+============================================================
+SECTION: Fillings Information
+============================================================
+  [INPUT] type=text | ph="Client Lookup" | name="" | id=""
+  [INPUT] type=text | ph="Enter First Name" | name="firstName" | id=""
+  [INPUT] type=text | ph="Enter Last Name" | name="lastName" | id=""
+  [INPUT] type=email | ph="Enter Email Address" | name="email" | id=""
+  [INPUT] type=text | ph="Enter Business Name" | name="businessName" | id=""
+  [INPUT] type=text | ph="Enter DBA" | name="dbaname" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="workNum" | id=""
+  [INPUT] type=text | ph="(XXX) XXX-XXXX" | name="mobileNumber" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=radio | ph="" | name="entityType" | id=""
+  [INPUT] type=text | ph="Search business description" | name="businessDesc_label" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Vehicle Usage" | name="vehicleUsage" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=radio | ph="" | name="newVenture" | id=""
+  [INPUT] type=text | ph="Enter Years of Experience" | name="yearsOfExperience" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isPrimary" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="isHaul" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=radio | ph="" | name="haulByOwn" | id=""
+  [INPUT] type=text | ph="Enter Gross Receipts Last Year" | name="grossReceipts" | id=""
+  [INPUT] type=text | ph="Enter Estimate Gross Receipts For Coming Year" | name="grossRecieptsUpcoming" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=radio | ph="" | name="operateArea" | id=""
+  [INPUT] type=text | ph="Enter Name of the City" | name="cityName" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isRepossessions" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isOperated" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isCommonCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=radio | ph="" | name="isContractHauler" | id=""
+  [INPUT] type=text | ph="Enter Types of Cargo Hauled" | name="cargoType" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="haulMaterials" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullDouble" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="pullTriple" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="isRenting" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="hasVehicle" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="wasDeclined" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=radio | ph="" | name="hasCommercialAuto" | id=""
+  [INPUT] type=number | ph="Enter number of Accidents" | name="noOfAccidents" | id=""
+  [TEXTAREA] type=textarea | ph="Provide Details of Losses" | name="lossDetail" | id=""
+  [INPUT] type=checkbox | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter Driver Name" | name="" | id=""
+  [INPUT] type=text | ph="MM/DD/YYYY" | name="" | id=""
+  [INPUT] type=text | ph="" | name="" | id=""
+  [SELECT] type=select-one | ph="" | name="" | id=""
+  [INPUT] type=text | ph="Enter License No." | name="" | id=""
+  [INPUT] type=text | ph="Enter Type" | name="" | id=""
+  [INPUT] type=text | ph="Enter Unit Type" | name="" | id=""
+  [INPUT] type=number | ph="Enter Years" | name="" | id=""
+  [INPUT] type=text | ph="Enter 17-character VIN" | name="" | id=""
+  [INPUT] type=number | ph="e.g. 2020" | name="" | id=""
+  [INPUT] type=text | ph="e.g. Volvo" | name="" | id=""
+  [INPUT] type=text | ph="e.g. FH16" | name="" | id=""
+  [INPUT] type=text | ph="Pickup, Wrecker, etc." | name="" | id=""
+  [INPUT] type=number | ph="Enter GVW" | name="" | id=""
+  [INPUT] type=text | ph="Enter Garaging Address" | name="" | id="location-search-input"
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Unl." | name="" | id=""
+  [INPUT] type=text | ph="Enter Number" | name="" | id=""
+  [INPUT] type=text | ph="Enter Safety Devices" | name="" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="isFhwaRequired" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=radio | ph="" | name="authorityType" | id=""
+  [INPUT] type=text | ph="Enter Registration or Base State" | name="isInterstateCarrier" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=radio | ph="" | name="isIntrastate" | id=""
+  [INPUT] type=text | ph="Enter List of States" | name="listOfStates" | id=""
+  [INPUT] type=text | ph="Enter Exact Name and Address" | name="permitsIssued" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isMCS" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isPolicyCovered" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isOversize" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isTowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isOthersAllowed" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isCanada" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isMexico" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isNameChanged" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isOtherCompany" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isSubsidiary" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isTransportationManaged" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="isLeased" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgentApointment" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [INPUT] type=radio | ph="" | name="hasAgreements" | id=""
+  [TEXTAREA] type=textarea | ph="Enter Additional Comments" | name="additionalComments" | id=""
+
+  --- RADIO BUTTONS ---
+  RADIO name="entityType" | question="Type Of Entity" | opts=['Individual', 'Partnership', 'Corporation', 'Other']
+  RADIO name="newVenture" | question="New Venture?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPrimary" | question="Is this your primary business?" | opts=['YesNo', 'YesNo']
+  RADIO name="isHaul" | question="Do you haul for hire?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulByOwn" | question="Do you haul your own cargo exclusively?" | opts=['YesNo', 'YesNo']
+  RADIO name="operateArea" | question="Do you operate in more than one state?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRepossessions" | question="Do you do repossessions?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOperated" | question="Do you operate over a regular route?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCommonCarrier" | question="Are you a common carrier?" | opts=['YesNo', 'YesNo']
+  RADIO name="isContractHauler" | question="Are you a contract hauler?" | opts=['YesNo', 'YesNo']
+  RADIO name="haulMaterials" | question="Do you Haul Hazardous Materials?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullDouble" | question="Do You Pull Double Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="pullTriple" | question="Do You Pull Triple Trailers?" | opts=['YesNo', 'YesNo']
+  RADIO name="isRenting" | question="Do You Rent or Lease Your Vehicle to Others?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasVehicle" | question="Do you hire any vehicles?" | opts=['YesNo', 'YesNo']
+  RADIO name="wasDeclined" | question="Have you ever been declined, canceled or non-renewed for this kind of insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasCommercialAuto" | question="Have you previously had commercial auto insurance?" | opts=['YesNo', 'YesNo']
+  RADIO name="isFhwaRequired" | question="Is an FHWA filing required?" | opts=['YesNo', 'YesNo']
+  RADIO name="authorityType" | question="Broker" | opts=['BrokerCommonContract', 'BrokerCommonContract', 'BrokerCommonContract']
+  RADIO name="isIntrastate" | question="Is an intrastate filing needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMCS" | question="Is MCS 90 endorsement needed?" | opts=['YesNo', 'YesNo']
+  RADIO name="isPolicyCovered" | question="Is our policy to cover all vehicles owned, operated or under lease to applicant?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOversize" | question="Are oversize/overweight commodities hauled?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTowed" | question="Are escort vehicles towed on return trips?" | opts=['YesNo', 'YesNo']
+  RADIO name="isAllowed" | question="Does your authority allow for transportation of hazardous commodities?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOthersAllowed" | question="Do you allow others to haul hazardous commodities under your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="isCanada" | question="Do you enter Canada?" | opts=['YesNo', 'YesNo']
+  RADIO name="isMexico" | question="Do you enter Mexico?" | opts=['YesNo', 'YesNo']
+  RADIO name="isNameChanged" | question="Have you ever changed your operating name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isOtherCompany" | question="Do you operate under any other name?" | opts=['YesNo', 'YesNo']
+  RADIO name="isSubsidiary" | question="Do you operate as a subsidiary of another company?" | opts=['YesNo', 'YesNo']
+  RADIO name="isTransportationManaged" | question="Do you own or manage any other transportation operations that are not covered?" | opts=['YesNo', 'YesNo']
+  RADIO name="isLeased" | question="Do you lease your authority?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgentApointment" | question="Do you appoint agents or hire independent contractors to operate on your behalf?" | opts=['YesNo', 'YesNo']
+  RADIO name="hasAgreements" | question="Do you have agreements with other carriers for the interchange of equipment or transportation of loa" | opts=['YesNo', 'YesNo']

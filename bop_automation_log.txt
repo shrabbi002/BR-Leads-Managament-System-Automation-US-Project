@@ -1,0 +1,74 @@
+============================================================
+  BindRocket BOP (Business Owner Policy) — ULTRA FAST
+  2026-03-10 15:30:59
+============================================================
+
+🔐 Logging in via API...
+   ✅ Logged in (1.4s)
+
+🌐 Opening browser + loading BOP form...
+   ✅ BOP Form ready (15.4s)
+
+📝 Filling BOP Form...
+   👤 Megan Wilson | megan.wilson66@gmail.com | (440) 513-4287
+   🏢 Decker-Mcknight | DBA: Megan's Group
+   📅 Biz Start: 09/24/2021 | Effective: 03/22/2026
+   🏠 Sq Ft: 5850 | BPP: $380436
+   🛡️ Gen Agg: $5000000 | Payroll: $253771
+
+── Section 1: General Information ──
+   ✅ First Name: Megan
+   ✅ Last Name: Wilson
+   ✅ DBA: Megan's Group
+   ✅ Business Name: Decker-Mcknight
+   ⚠️ Business Description: no dropdown option found, typed 'Consulting'
+   ✅ Business Start Date: 09/24/2021
+   ✅ BPP Deductible: 1000
+   ✅ Work Phone: (440) 513-4287
+   ✅ Mobile Number: (457) 374-4696
+   ✅ Email Address: megan.wilson66@gmail.com
+   ✅ Effective Date: 03/22/2026
+   ✅ Location Address: CaliforniaUSA
+   ✅ Same as Location Address: checked
+
+── Section 2: Property Information ──
+   ✅ Sq Ft: 5850
+   ✅ Gross Sales: 326944
+   ✅ Radio [Tenant]: No
+   ✅ BPP/Content Value: 380436
+   ✅ Money & Securities: 38739
+   ✅ Building Value: 3157044
+   ✅ Sign Value: 6991
+   ✅ Radio [Loss Runs Received]: No
+   ✅ Radio [Is Primary Location]: Yes
+   ✅ Checkbox [Fire Alarm]: checked
+   ✅ Checkbox [Burglar Alarm]: checked
+   ✅ Checkbox [Sprinkler System]: checked
+   ✅ Radio [Claim In Past 5 Years]: No
+   ✅ Radio [Additional Insured]: No
+   ✅ Checkbox [Repair Store]: checked
+   ✅ Checkbox [Old Cell phone Store]: checked
+
+── Section 3: General Liability & Limit ──
+   ✅ General Aggregate: 5000000
+   ✅ Products Aggregate: 3000000
+   ✅ Personal & Adv Injury: 2000000
+   ✅ Each Occurrence: 500000
+   ✅ Damage to Premises: 100000
+   ✅ Medical Expense: 10000
+   ✅ Other Coverage: Standard BOP coverage
+   ✅ Deductible: 5000
+   ✅ Number of Employees: 92
+   ✅ Annual Sales: 2109360
+   ✅ Payroll: 253771
+
+   ⚡ BOP Form filled in 8.4s
+
+💾 Saving form...
+   ✅ Save button clicked!
+   ℹ️ No Lead Source modal detected
+
+============================================================
+  ✅ BOP Form Done in 28.6s
+  📍 URL: https://dev.bindrocket.com/forms/general_business?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
+============================================================

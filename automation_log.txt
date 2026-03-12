@@ -1,40 +1,92 @@
 ==================================================
   BindRocket Auto Form — ULTRA FAST
-  2026-03-09 10:32:17
+  2026-03-10 12:04:33
 ==================================================
 
 🔐 Logging in via API...
-   ✅ Logged in (1.6s)
+   ✅ Logged in (1.4s)
 
 🌐 Opening browser + loading form...
-   ✅ Form ready (13.8s)
+   ✅ Form ready (30.0s)
 
 📝 Filling form...
-   👤 Karina Holmes | karina.holmes87@gmail.com | (107) 218-0246
-   📅 DOB: 04/13/1966 | Effective: 04/04/2026 | Renewal: 06/18/2026
-   🚗 VIN: 2TGM72064X995506 | Carrier: Progressive | Premium: $1875
-   ✅ Client Lookup: Karina Holmes
-   ✅ First Name: Karina
-   ✅ Last Name: Holmes
-   ✅ Email: karina.holmes87@gmail.com
-   ✅ Work Phone: (107) 218-0246
-   ✅ Mobile: (107) 218-0246
-   ✅ Date of Birth: 04/13/1966
-   ✅ Street Address: IllinoisUSA
-   ✅ Garage Address: IllinoisUSA
-   ✅ Effective Date: 04/04/2026
+   👤 Jesus Lee | jesus.lee21@gmail.com | (561) 899-3147
+   📅 DOB: 04/09/1986 | Effective: 04/02/2026 | Renewal: 08/08/2026
+   🚗 VIN: 1GGC81733B607960 | Carrier: GEICO | Premium: $839
+   ✅ Client Lookup: Jesus Lee
+   ✅ First Name: Jesus
+   ✅ Last Name: Lee
+   ✅ Email: jesus.lee21@gmail.com
+   ✅ Work Phone: (561) 899-3147
+   ✅ Mobile: (561) 899-3147
+   ✅ Date of Birth: 04/09/1986
+   ⚠️ Street Address: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7e84baa55
+	0x7ff7e8218630
+	0x7ff7e7fad75d
+	0x7ff7e7fb56c1
+	0x7ff7e7fb87e4
+	0x7ff7e7fb88af
+	0x7ff7e7ffe2a4
+	0x7ff7e80319da
+	0x7ff7e7ffaca6
+	0x7ff7e805591c
+	0x7ff7e7ff9098
+	0x7ff7e7ff9f83
+	0x7ff7e84e7810
+	0x7ff7e84e1afd
+	0x7ff7e8502c1a
+	0x7ff7e8233345
+	0x7ff7e823b81c
+	0x7ff7e8221924
+	0x7ff7e8221ad6
+	0x7ff7e8207e47
+	0x7ffc68e4e8d7
+	0x7ffc6a5ac40c
+
+   ⚠️ Garage Address: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7e84baa55
+	0x7ff7e8218630
+	0x7ff7e7fad75d
+	0x7ff7e7fb56c1
+	0x7ff7e7fb87e4
+	0x7ff7e7fb88af
+	0x7ff7e7ffe2a4
+	0x7ff7e80319da
+	0x7ff7e7ffaca6
+	0x7ff7e805591c
+	0x7ff7e7ff9098
+	0x7ff7e7ff9f83
+	0x7ff7e84e7810
+	0x7ff7e84e1afd
+	0x7ff7e8502c1a
+	0x7ff7e8233345
+	0x7ff7e823b81c
+	0x7ff7e8221924
+	0x7ff7e8221ad6
+	0x7ff7e8207e47
+	0x7ffc68e4e8d7
+	0x7ffc6a5ac40c
+
+   ✅ Effective Date: 04/02/2026
    ✅ Checkboxes: 2 checked
    ✅ Radio [hasPreviousAddress]: selected
-   ✅ Driver Name: Karina Holmes
-   ✅ Driver DOB: 04/13/1966
-   ✅ License: J2310623
+   ✅ Driver Name: Jesus Lee
+   ✅ Driver DOB: 04/09/1986
+   ✅ License: T1354962
    ✅ Radio [coverageType]: selected
-   ✅ VIN: 2TGM72064X995506
-   ✅ Carrier Name: Progressive
-   ✅ Renewal Date: 06/18/2026
-   ✅ Premium: $1875
-   ✅ Duration: 3 years
-   ⚡ Form filled in 3.4s
+   ✅ VIN: 1GGC81733B607960
+   ✅ Carrier Name: GEICO
+   ✅ Renewal Date: 08/08/2026
+   ✅ Premium: $839
+   ✅ Duration: 10 years
+   ⚡ Form filled in 1.0s
 
 💾 Saving form...
    ✅ Save button clicked!
@@ -43,6 +95,11 @@
    ✅ Saved!
 
 ==================================================
-  ✅ Done in 23.4s
+  ✅ Done in 37.8s
   📍 URL: https://dev.bindrocket.com/forms/auto?agency_id=218&agent_id=af884b7a-6ce1-470d-8a35-5c0612e13818
 ==================================================
+
+⚠️ Interrupted.
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001861D716190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bb2408699da069236d6cbf78b9a224cb
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001861D71C5D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bb2408699da069236d6cbf78b9a224cb
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001861D71CAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bb2408699da069236d6cbf78b9a224cb
